@@ -1,24 +1,20 @@
-# README
+# CauseWay Donations App README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### GEMS
+devise
+friendly_id
+sidekiq
+name_of_person
+stripe
+rspec
+factorybot
+css-bundling
+tailwind css
 
-Things you may want to cover:
+### Boot it up
 
-* Ruby version
+`$ ./bin/dev`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Routes
+http://localhost:3000/users/sign_in
+http://localhost:3000/users/sign_up
